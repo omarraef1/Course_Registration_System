@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+.OuterLogin {
+	background-color: #446f91;
+	border-style: solid;
+	border-color: #b8b8b8;
+	border-width: 5px;
+	padding: 10px;
+	font-size: 16pt;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	width: 310px;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cart{
+	background-color: #446f91;
+	border-style: solid;
+	border-color: #b8b8b8;
+	border-width: 5px;
+	padding: 10px;
+	font-size: 16pt;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	width: 310px;
+	height: 150px;
+	float: left;
+}
+.nexus{
+	background-color: #5a9186;
+	border-style: solid;
+	border-color: #b8b8b8;
+	border-width: 5px;
+	padding: 10px;
+	font-size: 16pt;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+	width: 200px;
+	float: right;
+}
+.button{
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.button:hover{
+	background-color: #4CAF50;
+	color: white;
+}
+body{
+	background-color: #e4e4e4;
+}
+
+.floatRight{
+	float:right;
+}
+.floatLeft{
+	float: left;
+}
+.bg{
+	background-image:url("images/raptors_background.png");
+	background-size: 1000px 520px;
+	height: 500px;
+    background-repeat: no-repeat;
+}
+.loginheadmarg{
+	margin-left: auto;
+	width: 50%;
+}
+
+.alignment{
+	text-align:center;
+	margin: 0;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.alignmentl{
+	text-align:center;
+}
+.alignmentk{
+	text-align: right;
+}
+.loginhead{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 80px;
+}
+.buttondiv{
+	text-align:center;
+	height: 150px;
+}
+.buttondivi{
+	text-align:center;
+	height: 150px;
+}
+
+.buttons{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid blue;
+}
+
+.mainclasses{
+	text-align:center;
+}
+.mainclassesbuttons{
+	margin: 10px;
+	border:2px solid gray;
+	width: 300px;
+	height: 250px;
+	padding:16px 32px;
+	transition-duration: 0.4s;
+}
+.classtitle{
+	font-size: 25pt;
+	color: #645fb9;
+}
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+h1{
+	color:blue;
+	text-shadow:1px 1px black;
+}
